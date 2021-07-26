@@ -1,0 +1,15 @@
+Hey! This Python program with its attached .cmd file will allow you to right-click on any file in Windows Explorer > Send To > VTUploader.cmd. The file will then either be uploaded and scanned using VirusTotal, or the analysis result will be fetched if it has already been scanned.
+
+Steps to get you set up:
+1. Go to virustotal.com and set up a new account. Grab your API key.
+2. Create a .env file in your Python project's folder, and input your API key.
+3. Download main.py to that same folder.
+4. Download VTUploader.cmd to shell:sendto (type shell:sendto into the Explorer address bar).
+5. Edit VTUploader.cmd, replacing PATH-TO-MAIN.PY with the appropriate path.
+6. You're ready to go! Now, whenever you have downloaded a suspicious-looking file, just right click on it > Send to > VTUploader.cmd, and your file will be scanned by dozens of antivirus programs!
+
+NOTE: Please DO NOT upload any sensitive documents containing personal info/stuff you want to keep secret to VirusTotal.
+
+Funny loading messages pulled from https://github.com/1egoman/funnies.
+
+You are free to use all or some of my code.
